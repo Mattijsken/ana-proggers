@@ -1,0 +1,35 @@
+﻿Eethuisje ‘De bit en de byte’
+
+
+
+Omschrijving
+
+Een klein eethuisje wil een programma waar hun personeel- en klantenbestand in wordt bijgehouden.
+Op hun menu staan dranken en maaltijden. Ook deze willen ze op computer. Aan elke maaltijd is een recept verbonden.
+In die recepten is de naam (op het menu), de ingrediënten en de bereidingswijze vermeld.
+Van de vaste klanten willen ze graag de allergieën noteren zodat ze hiermee rekening kunnen houden bij een bestelling. Koppel daarom de ingrediënten waaraan die persoon allergisch is toe aan de klant en kijk dit na wanneer de bestelling wordt opgenomen.
+Graag zouden ze het menu, de recepten, de klanten en de personeelslijst kunnen exporteren naar een CSV en ook kunnen importeren.
+Graag willen ze een mailing doen naar de klanten wanneer er een nieuw menu is.
+We willen later het programma omzetten naar WPF of web. Zorg dat de werking wordt gescheiden van de gebruikers interface(s)
+
+
+
+Bijkomende info
+
+Maak een menulijst met menu items aan.
+Zorg voor een onderscheid tussen dranken en maaltijden.
+Koppel aan de maaltijden een recept.
+Zorg voor een aparte ingrediëntenlijst waarin de ingrediënten staan (Tip: maak hiervoor best een aparte klasse aan zodanig dat je een ref kan gebruiken in het recept en bij de klant)
+Tip: gebruik hiervoor de recept klasse uit de delegate oefening (maar zonder de delegate).
+Pas het personeelsbestand aan.
+
+Zorg dat elke klant gekoppeld is met de ingrediënten waarvoor hij allergisch is uit de ingrediëntenlijst -> (Tip: gebruik een referentie naar een object en geen waarde)
+Elke werknemer (enkel de werknemers en niet de klanten) moet de mogelijkheid krijgen om hun eigen favoriete recept te delen.
+Er mogen hiervoor geen delegate functies gebruikt worden! => Maak gebruik van interfaces!
+
+Pas de CLI aan.
+
+Maak aparte CSV files aan voor werknemers, klanten, recepten en menu (ev. ook ingrediënten)
+Het is duidelijk dat het personeelsbestand belangrijk wordt. Plaats alle code die hiermee verbonden is in een aparte bibliotheek.
+Zorg er tenslotte voor dat nergens nog de console wordt aangeroepen in de bibliotheek.
+
